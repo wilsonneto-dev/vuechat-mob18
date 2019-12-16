@@ -39,9 +39,10 @@
     "env": {
       "node": true
     },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
+    "extends": ["vue", "standard", "plugin:vue/recommended"],
+    "plugins": [
+      "import",
+      "vue"
     ],
     "rules": {},
     "parserOptions": {
