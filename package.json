@@ -47,7 +47,7 @@
     "parserOptions": {
       "parser": "babel-eslint",
       "ecmaFeatures": {
-        "jsx": true,
+        "jsx": false,
         "modules": true
       }
     }
