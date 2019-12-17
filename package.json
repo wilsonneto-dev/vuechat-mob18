@@ -34,25 +34,6 @@
     "eslint-plugin-vue": "^5.0.0",
     "vue-template-compiler": "^2.6.10"
   },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": ["vue", "standard", "plugin:vue/recommended"],
-    "plugins": [
-      "import",
-      "vue"
-    ],
-    "rules": {},
-    "parserOptions": {
-      "parser": "babel-eslint",
-      "ecmaFeatures": {
-        "jsx": false,
-        "modules": true
-      }
-    }
-  },
   "browserslist": [
     "> 1%",
     "last 2 versions"
